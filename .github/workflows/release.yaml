@@ -15,6 +15,6 @@ jobs:
         goarch: amd64
         project_path: proxy
         binary_name: snowflake-proxy
-        pre_command: "export CGO_ENABLED=0" # is this taken?
+        pre_command: "export CGO_ENABLED=0" # XXX is this taken?
         sha256sum: TRUE
         overwrite: TRUE
